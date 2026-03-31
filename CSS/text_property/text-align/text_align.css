@@ -1,0 +1,21 @@
+h1{
+    text-align:center;
+}
+p{
+    text-align:justify;
+}
+h2{
+    text-align:left;
+}
+h3{
+    text-align:end;
+}
+button{
+    text-align:right;
+}
+h4{
+    text-align:right;
+}
+h5{
+    text-align:start;
+}

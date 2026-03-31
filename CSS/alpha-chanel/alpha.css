@@ -1,0 +1,24 @@
+#transition{
+    height:200px;
+    width:200px;
+    background-color: rgba(149, 54, 54, 0.56);
+    /* transition-delay:1s;
+    transition-duration:2s; */
+    margin: auto;
+    margin-top:10px;
+    transition:margin-top 2s ease-in 1s;
+}
+#transition:hover{
+    background-color: green;
+    border-radius:50%;
+    margin-top:300px;
+}
+#opacity{
+    height:200px;
+    width:200px;
+    background-color: rgba(149,0,0,1);
+    opacity:0.8;
+    h3{
+        background-color: rgb(134, 134, 224);
+    }
+}

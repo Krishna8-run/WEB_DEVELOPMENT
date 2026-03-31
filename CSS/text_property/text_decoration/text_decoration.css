@@ -1,0 +1,13 @@
+h1{
+    text-decoration:wavy black underline;
+}
+h2{
+    text-decoration:  dotted  blue overline;
+}
+h3{
+    text-decoration:red line-through;
+}
+
+a{
+    text-decoration:none;
+}

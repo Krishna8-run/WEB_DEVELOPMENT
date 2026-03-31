@@ -1,0 +1,55 @@
+.box1{
+    height:100px;
+    width:200px;
+    background-color: blue;
+    border:3px solid red;
+    color:orange;
+    animation-name:animation1;
+    animation-duration:3s;
+    animation-timing-function:ease-in;
+    animation-delay:0s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate; 
+
+}
+.box2{
+     height:100px;
+    width:200px;
+    background-color: blue;
+    border:3px solid red;
+    color:orange;
+    animation:animation2 3s ease-in 0s infinite alternate;
+
+}
+
+@keyframes animation1{
+    from{
+        height:10px;
+        width:10px;
+        background-color:black;
+    }
+    to{
+        height:200px;
+        width:500px;
+        background-color:yellow;
+
+    }
+} 
+
+@keyframes animation2{
+0%{
+    background-color:red;
+}
+20%{
+    background-color:green;
+}
+50%{
+    background-color:blue;
+}
+75%{
+    background-color:wheat;
+}
+100%{
+    background-color:purple;
+}
+}

@@ -1,0 +1,49 @@
+h2{
+    display:inline;
+    background-color: pink;
+}
+span{
+    display:inline;
+    background-color: green;
+    /* height and width are not applied here; */
+    height:50px;
+    width:50px;
+    /*  padding and margin takes left and right only not top and bottom; */
+    padding:5px;
+    margin:5px;
+
+}
+/* div{
+    width:150px;
+    height:150px;
+    background-color: red;
+    margin:5px;
+    padding:5px;
+    border:4px;
+    display:inline-block;
+} */
+#outer{
+    height:200px;
+    width:200px;
+    background-color: green;
+    margin:50px;
+}
+#inner{
+    height:50px;
+    width:50px;
+    background-color: red;
+    margin-left:10%;
+}
+button{
+    font-size:50px;
+    border-radius:15px;
+    border:5px solid green;
+    padding-left:1em;
+        padding-right:0.5em;
+}
+section{
+    font-size:50px;
+}
+div{
+    font-size:2em;
+}

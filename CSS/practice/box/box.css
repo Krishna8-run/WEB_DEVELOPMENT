@@ -1,0 +1,20 @@
+#box{
+    height:15px;
+    width:30px;
+    background-color: rgb(165, 48, 48);
+    border:5px  black dotted  ;
+    margin:20px 1em 40px 2em;
+    padding:1em;
+}
+#boxes{
+    height:100px;
+    width:100px;
+    background-color: pink;
+    border-radius:50%;
+    display:inline-block;
+}
+li{
+    color:red;
+    background-color: black;
+    display:inline;
+}
