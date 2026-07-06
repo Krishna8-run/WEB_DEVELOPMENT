@@ -1,0 +1,45 @@
+h1,h3{
+    text-align:center;
+}
+body{
+    display:grid;
+    place-items:center;
+}
+.container{
+    width:250px;
+    height:250px;
+    display:grid;
+    grid-template-columns:120px 120px;
+    justify-content:center;
+    align-items:center;
+    place-items:center;
+    background-color:lightgray;
+    border-radius:30px;
+}
+.btn{
+    border:5px solid rgb(73, 67, 67);
+    width:100px;
+    height:100px;
+    margin:10px;
+    /* background-color:blue; */
+    border-radius:45%;  
+}
+
+#btn1{
+    background-color: yellow;
+}
+#btn2{
+    background-color:red;
+}
+#btn3{
+    background-color:green;
+}
+#btn4{
+    background-color: purple;
+}
+.flash{
+    background-color: white !important ;
+}
+.userFlash{
+    background-color: blue;
+}
