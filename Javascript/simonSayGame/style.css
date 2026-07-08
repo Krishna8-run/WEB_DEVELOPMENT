@@ -2,6 +2,7 @@ h1,h3{
     text-align:center;
 }
 body{
+    background-color: rgb(121, 117, 117);
     display:grid;
     place-items:center;
 }
@@ -40,6 +41,6 @@ body{
 .flash{
     background-color: white !important ;
 }
-.userFlash{
-    background-color: blue;
+.userflash{
+    background-color: blue !important;
 }
